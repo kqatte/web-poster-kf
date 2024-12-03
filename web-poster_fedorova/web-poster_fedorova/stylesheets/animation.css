@@ -1,0 +1,14 @@
+@keyframes polygonanima {
+  0% {
+    background-image: url(//images/polygon1.svg);
+  }
+  25% {
+    background-image: url(//images/polygon2.svg);
+  }
+  50% {
+    background-image: url(//images/polygon3.svg);
+  }
+  100% {
+    background-image: url(//images/polygon4.svg);
+  }
+}
