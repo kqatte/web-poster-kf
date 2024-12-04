@@ -3,30 +3,29 @@
   height: 720px;
   width: 347px;
   top: 0;
-  background-image: url(//web-poster_fedorova/images/polygon1.png);
   animation: polygonanima 1s steps(1) infinite;
 }
 
 @keyframes polygonanima {
   0% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon1.png);
+    background-image: url(../images/polygon1.png);
   }
   17% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon1.5.png);
+    background-image: url(../images/polygon1.5.png);
   }
   34% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon2.png);
+    background-image: url(../images/polygon2.png);
   }
   51% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon2.5.png);
+    background-image: url(../images/polygon2.5.png);
   }
   68% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon3.png);
+    background-image: url(../images/polygon3.png);
   }
   85% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon3.5.png);
+    background-image: url(../images/polygon3.5.png);
   }
   100% {
-    background-image: url(/Users/kqatte/Desktop/coding/web-poster_fedorova/web-poster_fedorova/images/polygon4.png);
+    background-image: url(../images/polygon4.png);
   }
 }
