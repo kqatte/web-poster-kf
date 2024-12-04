@@ -2,15 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 body {
   font-family: 'Helvetica';
 }
-
 .polygon {
-  height: 800px;
-  width: 400px;
-
-  animation: polygonanima 5s steps(1) infinite;
+  background-image: url(//web-poster_fedorova/images/polygon1.png);
 }
