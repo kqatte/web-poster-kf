@@ -1,9 +1,43 @@
-.section1 {
-  display: flex;
-  height: 100%;
+html {
+  background-color: black;
+}
+body {
+  width: 1440px;
+  margin: 0 auto;
+
+  position: relative;
+}
+section {
+  position: relative;
+  width: 100%;
 }
 
 body {
   background-color: black;
   font-family: 'Helvetica';
+}
+.theatretext1 {
+  transform: rotate(-26deg);
+  margin-left: -200px;
+  font-size: 60px;
+}
+
+.theatretext1 > p {
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  animation: howtochangepast 2s linear infinite;
+}
+.theatretext2 {
+  transform: rotate(26deg);
+  margin-left: 200px;
+  font-size: 60px;
+}
+.theatretext2 > p {
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  animation: whatifidid 2s linear infinite;
 }

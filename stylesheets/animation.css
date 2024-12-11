@@ -1,7 +1,17 @@
+@keyframes howtochangepast {
+  100% {
+    transform: translate(-50%);
+  }
+}
+@keyframes whatifidid {
+  100% {
+    transform: translate(-50%);
+  }
+}
 .polygon {
   position: absolute;
-  height: 720px;
-  width: 347px;
+  height: 50vw;
+  width: 24vw;
   top: 0;
   animation: polygonanima 1s steps(1) infinite;
 }
