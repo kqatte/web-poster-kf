@@ -4,14 +4,20 @@
     font-style: normal;
     color: #1e4833;
   }
-
-  50% {
+  25% {
     font-weight: bold;
     color: #740606;
   }
-
-  100% {
+  50% {
     font-style: italic;
+    color: #1e4833;
+  }
+  75% {
+    font-style: normal;
+    color: #740606;
+  }
+  100% {
+    font-style: bold;
     color: white;
   }
 }
@@ -35,55 +41,149 @@
 
 /* смена цвета колонн по наведению 1 экран */
 .whcolumn1:hover {
-  background-image: url(../images/redcolumn1.svg);
+  background-image: url(../images/whcolumn1.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 10vw;
 }
 
 .whcolumn2:hover {
   background-image: url(../images/greencolumn1.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 24vw;
 }
 
 .whcolumn3:hover {
   background-image: url(../images/redcolumn2.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 38vw;
 }
 
 .whcolumn4:hover {
   background-image: url(../images/greencolumn2.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 52vw;
 }
 .whcolumn5:hover {
   background-image: url(../images/redcolumn3.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 66vw;
 }
 .whcolumn6:hover {
-  background-image: url(../images/greencolumn3.svg);
+  background-image: url(../images/whcolumn6.svg);
   height: 30vw;
   width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 80vw;
+}
+
+/* 3 экран покадровая анимация кулис */
+@keyframes backstagemove {
+  0% {
+    background-image: url(../images/backstage1.png);
+  }
+  4% {
+    background-image: url(../images/backstage2.png);
+  }
+  8% {
+    background-image: url(../images/backstage3.png);
+  }
+  12% {
+    background-image: url(../images/backstage4.png);
+  }
+  16% {
+    background-image: url(../images/backstage5.png);
+  }
+  20% {
+    background-image: url(../images/backstage6.png);
+  }
+  24% {
+    background-image: url(../images/backstage7.png);
+  }
+  28% {
+    background-image: url(../images/backstage8.png);
+  }
+  32% {
+    background-image: url(../images/backstage9.png);
+  }
+  36% {
+    background-image: url(../images/backstage10.png);
+  }
+  40% {
+    background-image: url(../images/backstage11.png);
+  }
+  44% {
+    background-image: url(../images/backstage12.png);
+  }
+  48% {
+    background-image: url(../images/backstage13.png);
+  }
+  52% {
+    background-image: url(../images/backstage14.png);
+  }
+  56% {
+    background-image: url(../images/backstage15.png);
+  }
+  60% {
+    background-image: url(../images/backstage16.png);
+  }
+  64% {
+    background-image: url(../images/backstage17.png);
+  }
+  68% {
+    background-image: url(../images/backstage18.png);
+  }
+  72% {
+    background-image: url(../images/backstage19.png);
+  }
+  76% {
+    background-image: url(../images/backstage20.png);
+  }
+  80% {
+    background-image: url(../images/backstage21.png);
+  }
+  84% {
+    background-image: url(../images/backstage22.png);
+  }
+  88% {
+    background-image: url(../images/backstage23.png);
+  }
+  92% {
+    background-image: url(../images/backstage24.png);
+  }
+  100% {
+    background-image: url(../images/backstage25.png);
+  }
+}
+/* 3 экран анимация звезд */
+@keyframes star1rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.star1:hover,
+.star2:hover {
+  animation-play-state: paused;
+}
+
+@keyframes star2rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* 3 экран падение слов */
+
+@keyframes choosefall {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100vw;
+  }
 }
 
 /* треугольники ? экран */
