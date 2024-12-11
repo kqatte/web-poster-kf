@@ -10,7 +10,7 @@ body {
 section {
   margin-top: 0;
   position: relative;
-  height: 900px;
+  height: 100vw;
   width: 100vw;
   overflow: hidden;
 }
@@ -120,7 +120,7 @@ body {
   margin-top: 0;
   background-image: url(../images/backstage1.png);
   width: 50vw;
-  height: 72vw;
+  height: 65vw;
 }
 
 /* стили треугольничков на ? экране */
