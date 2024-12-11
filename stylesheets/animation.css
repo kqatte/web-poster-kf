@@ -1,3 +1,4 @@
+/* смена начертаний "А ЕСЛИ" 1 экран */
 @keyframes boldchange {
   0% {
     font-style: normal;
@@ -14,7 +15,7 @@
     color: white;
   }
 }
-
+/* бегущие строки 1 экран */
 @keyframes howtochangepast {
   100% {
     transform: translate(-50%);
@@ -32,13 +33,60 @@
   }
 }
 
-.polygon {
-  height: 50vw;
-  width: 24vw;
-  top: 0;
-  animation: polygonanima 1s steps(1) infinite;
+/* смена цвета колонн по наведению 1 экран */
+.whcolumn1:hover {
+  background-image: url(../images/redcolumn1.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 10vw;
 }
 
+.whcolumn2:hover {
+  background-image: url(../images/greencolumn1.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 24vw;
+}
+
+.whcolumn3:hover {
+  background-image: url(../images/redcolumn2.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 38vw;
+}
+
+.whcolumn4:hover {
+  background-image: url(../images/greencolumn2.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 52vw;
+}
+.whcolumn5:hover {
+  background-image: url(../images/redcolumn3.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 66vw;
+}
+.whcolumn6:hover {
+  background-image: url(../images/greencolumn3.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 80vw;
+}
+
+/* треугольники ? экран */
 @keyframes polygonanima {
   0% {
     background-image: url(../images/polygon1.png);

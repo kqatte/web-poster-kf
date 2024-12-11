@@ -1,3 +1,4 @@
+/* общие настройки */
 html {
   background-color: black;
 }
@@ -7,15 +8,18 @@ body {
   width: 100vw;
 }
 section {
+  margin-top: 0;
   position: relative;
-  height: 100vw;
+  height: 900px;
   width: 100vw;
+  overflow: hidden;
 }
-
 body {
   background-color: black;
   font-family: 'Helvetica';
 }
+
+/* 1 экран стили всех текстовых элементов*/
 .theatretext4 {
   position: absolute;
   font-size: 3vw;
@@ -60,6 +64,8 @@ body {
   position: relative;
   animation: iwanttochange 2s linear infinite;
 }
+
+/* 1 экран стили колонн театра */
 .whcolumn1 {
   background-image: url(../images/whcolumn1.svg);
   height: 30vw;
@@ -109,58 +115,18 @@ body {
   position: absolute;
 }
 
-.whcolumn1:hover {
-  background-image: url(../images/redcolumn1.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 10vw;
-}
-
-.whcolumn2:hover {
-  background-image: url(../images/greencolumn1.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 24vw;
-}
-
-.whcolumn3:hover {
-  background-image: url(../images/redcolumn2.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 38vw;
-}
-
-.whcolumn4:hover {
-  background-image: url(../images/greencolumn2.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 52vw;
-}
-.whcolumn5:hover {
-  background-image: url(../images/redcolumn3.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 66vw;
-}
-.whcolumn6:hover {
-  background-image: url(../images/greencolumn3.svg);
-  height: 30vw;
-  width: 10vw;
-  position: absolute;
-  margin-top: 3vw;
-  margin-left: 80vw;
-}
-
-.polygon {
+/* 2 экран покадровая анимация кулис  */
+.backstage {
   margin-top: 0;
+  background-image: url(../images/backstage1.png);
+  width: 50vw;
+  height: 72vw;
+}
+
+/* стили треугольничков на ? экране */
+.polygon {
+  height: 50vw;
+  width: 27vw;
+  top: 0;
+  animation: polygonanima 1s steps(1) infinite;
 }
