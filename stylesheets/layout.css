@@ -2,24 +2,32 @@ html {
   background-color: black;
 }
 body {
-  width: 1440px;
   margin: 0 auto;
-
   position: relative;
+  width: 100vw;
 }
 section {
   position: relative;
-  width: 100%;
+  height: 100vw;
+  width: 100vw;
 }
 
 body {
   background-color: black;
   font-family: 'Helvetica';
 }
+.theatretext4 {
+  position: absolute;
+  font-size: 3vw;
+  margin-top: 15vw;
+  margin-left: 44vw;
+  color: #1e4833;
+  animation: boldchange 2s infinite linear;
+}
 .theatretext1 {
   transform: rotate(-26deg);
-  margin-left: -200px;
-  font-size: 60px;
+  margin-left: -5vw;
+  font-size: 3vw;
 }
 
 .theatretext1 > p {
@@ -31,8 +39,8 @@ body {
 }
 .theatretext2 {
   transform: rotate(26deg);
-  margin-left: 200px;
-  font-size: 60px;
+  margin-left: 15vw;
+  font-size: 3vw;
 }
 .theatretext2 > p {
   color: white;
@@ -40,4 +48,119 @@ body {
   white-space: nowrap;
   position: relative;
   animation: whatifidid 2s linear infinite;
+}
+.theatretext3 {
+  font-size: 3vw;
+  margin-top: 20vw;
+}
+.theatretext3 > p {
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  animation: iwanttochange 2s linear infinite;
+}
+.whcolumn1 {
+  background-image: url(../images/whcolumn1.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 10vw;
+  position: absolute;
+}
+.whcolumn2 {
+  background-image: url(../images/whcolumn2.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 24vw;
+  position: absolute;
+}
+.whcolumn3 {
+  background-image: url(../images/whcolumn3.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 38vw;
+  position: absolute;
+}
+.whcolumn4 {
+  background-image: url(../images/whcolumn4.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 52vw;
+  position: absolute;
+}
+.whcolumn5 {
+  background-image: url(../images/whcolumn5.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 66vw;
+  position: absolute;
+}
+.whcolumn6 {
+  background-image: url(../images/whcolumn6.svg);
+  height: 30vw;
+  width: 10vw;
+  margin-top: 3vw;
+  margin-left: 80vw;
+  position: absolute;
+}
+
+.whcolumn1:hover {
+  background-image: url(../images/redcolumn1.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 10vw;
+}
+
+.whcolumn2:hover {
+  background-image: url(../images/greencolumn1.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 24vw;
+}
+
+.whcolumn3:hover {
+  background-image: url(../images/redcolumn2.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 38vw;
+}
+
+.whcolumn4:hover {
+  background-image: url(../images/greencolumn2.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 52vw;
+}
+.whcolumn5:hover {
+  background-image: url(../images/redcolumn3.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 66vw;
+}
+.whcolumn6:hover {
+  background-image: url(../images/greencolumn3.svg);
+  height: 30vw;
+  width: 10vw;
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 80vw;
+}
+
+.polygon {
+  margin-top: 0;
 }
