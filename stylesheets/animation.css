@@ -1,4 +1,4 @@
-/* смена начертаний "А ЕСЛИ" 1 экран */
+/* 1 экран смена начертаний "А ЕСЛИ"  */
 @keyframes boldchange {
   0% {
     font-style: normal;
@@ -21,7 +21,7 @@
     color: white;
   }
 }
-/* бегущие строки 1 экран */
+/* 1 экран бегущие строки */
 @keyframes howtochangepast {
   100% {
     transform: translate(-50%);
@@ -39,7 +39,7 @@
   }
 }
 
-/* смена цвета колонн по наведению 1 экран */
+/* 1 экран смена цвета колонн по наведению */
 .whcolumn1:hover {
   background-image: url(../images/whcolumn1.svg);
   height: 30vw;
@@ -74,7 +74,7 @@
   width: 10vw;
 }
 
-/* 3 экран покадровая анимация кулис */
+/* 2 экран покадровая анимация кулис */
 @keyframes backstagemove {
   0% {
     background-image: url(../images/backstage1.png);
@@ -152,7 +152,7 @@
     background-image: url(../images/backstage25.png);
   }
 }
-/* 3 экран анимация звезд */
+/* 2 экран анимация звезд */
 @keyframes star1rotate {
   from {
     transform: rotate(0deg);
@@ -175,17 +175,200 @@
   }
 }
 
-/* 3 экран падение слов */
+/* 2 экран падение слов */
 
 @keyframes choosefall {
   0% {
     top: 0;
+    transform: rotate(10deg);
   }
   100% {
     top: 100vw;
+    transform: rotate(40deg);
+  }
+}
+@keyframes yourfall {
+  0% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(-60deg);
   }
 }
 
+@keyframes endfall {
+  0% {
+    top: 0;
+    transform: rotate(-5deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(-40deg);
+  }
+}
+@keyframes yourselffall {
+  0% {
+    top: 0;
+    transform: rotate(20deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(60deg);
+  }
+}
+
+/* 3 экран анимация буковок */
+@keyframes cursivechange1 {
+  0% {
+    font-style: normal;
+  }
+  50% {
+    font-weight: bold;
+  }
+  100% {
+    font-style: italic;
+  }
+}
+@keyframes cursivechange2 {
+  0% {
+    font-weight: bold;
+  }
+  50% {
+    font-style: normal;
+  }
+  100% {
+    font-style: italic;
+  }
+}
+@keyframes cursivechange3 {
+  0% {
+    font-style: oblique;
+  }
+  50% {
+    font-style: normal;
+  }
+  100% {
+    font-weight: bold;
+  }
+}
+@keyframes cursivechange4 {
+  0% {
+    font-style: normal;
+  }
+  50% {
+    font-style: italic;
+  }
+  100% {
+    font-weight: bold;
+  }
+}
+@keyframes cursivechange5 {
+  0% {
+    font-weight: bold;
+  }
+  50% {
+    font-style: normal;
+  }
+  100% {
+    font-style: italic;
+  }
+}
+/* 3 экран анимация перекрытия букв */
+.ahide:hover {
+  background-image: url(../images/ahide.svg);
+  width: 21vw;
+  height: 20vw;
+}
+.ehide:hover {
+  background-image: url(../images/ehide.svg);
+  width: 21vw;
+  height: 20vw;
+}
+.shide:hover {
+  background-image: url(../images/shide.svg);
+  width: 21vw;
+  height: 20vw;
+}
+.lhide:hover {
+  background-image: url(../images/lhide.svg);
+  width: 21vw;
+  height: 20vw;
+}
+.ihide:hover {
+  background-image: url(../images/ihide.svg);
+  width: 21vw;
+  height: 20vw;
+}
+
+/* 4 экран слова тудасюда */
+@keyframes wordsmove1 {
+  0% {
+    left: -8vw;
+  }
+  50% {
+    left: 23vw;
+  }
+  100% {
+    left: -8vw;
+  }
+}
+@keyframes wordsmove2 {
+  0% {
+    right: -8vw;
+  }
+  50% {
+    right: 23vw;
+  }
+  100% {
+    right: -8vw;
+  }
+}
+@keyframes wordsmove3 {
+  0% {
+    left: -8vw;
+  }
+  50% {
+    left: 10vw;
+  }
+  100% {
+    left: -8vw;
+  }
+}
+@keyframes wordsmove4 {
+  0% {
+    right: -8vw;
+  }
+  50% {
+    right: 10vw;
+  }
+  100% {
+    right: -8vw;
+  }
+}
+@keyframes wordsmove5 {
+  0% {
+    left: -20vw;
+  }
+  50% {
+    left: 20vw;
+  }
+  100% {
+    left: -20vw;
+  }
+}
+@keyframes wordsmove6 {
+  0% {
+    right: -20vw;
+  }
+  50% {
+    right: 20vw;
+  }
+  100% {
+    right: -20vw;
+  }
+}
 /* треугольники ? экран */
 @keyframes polygonanima {
   0% {
