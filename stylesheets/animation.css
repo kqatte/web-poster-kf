@@ -369,6 +369,25 @@
     right: -20vw;
   }
 }
+
+/* 5 экран полосочки перекрытие */
+
+.polosochki1:hover {
+  background-image: url(../images/overpolosochki1.svg);
+
+  width: 33vw;
+  height: 33vw;
+}
+.polosochki2:hover {
+  background-image: url(../images/overpolosochki2.svg);
+  width: 33vw;
+  height: 33vw;
+}
+.polosochki3:hover {
+  background-image: url(../images/overpolosochki3.svg);
+  width: 33vw;
+  height: 33vw;
+}
 /* треугольники ? экран */
 @keyframes polygonanima {
   0% {
@@ -391,5 +410,70 @@
   }
   100% {
     background-image: url(../images/polygon4.png);
+  }
+}
+
+@keyframes runningquestions1 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-31.75vw);
+  }
+}
+@keyframes runningquestions2 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(31vw);
+  }
+}
+
+@keyframes greentabletext {
+  0% {
+    transform: translateY(0vw);
+  }
+  33% {
+    transform: translateY(-6vw);
+  }
+  66% {
+    transform: translateY(6vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  11% {
+    transform: rotate(0deg);
+  }
+  22% {
+    transform: rotate(90deg);
+  }
+  33% {
+    transform: rotate(90deg);
+  }
+  44% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(180deg);
+  }
+  66% {
+    transform: rotate(270deg);
+  }
+  77% {
+    transform: rotate(270deg);
+  }
+  88% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

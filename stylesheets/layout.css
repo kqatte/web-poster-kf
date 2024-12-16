@@ -197,7 +197,7 @@ body {
   animation-play-state: paused;
 }
 
-/* 3 экран общие настройки */
+/* 3 экран 4 (1) секция общие настройки */
 .section4 {
   display: flex;
   flex-direction: row;
@@ -255,13 +255,14 @@ body {
   text-align: center;
   animation: cursivechange5 1s infinite linear;
 }
-
+/* 4 экран 5 (1) секция общие настройки  */
 .section5 {
   margin-top: 4vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+/* 4 экран 1 секция слова */
 .past {
   position: relative;
   font-size: 3vw;
@@ -275,6 +276,8 @@ body {
   color: white;
   animation: wordsmove2 1s infinite ease;
 }
+
+/* 4 экран 6 (2) и 7 (3) секция общие настройки  */
 .section6,
 .section7 {
   margin-top: 1vw;
@@ -282,6 +285,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
+/* 4 экран 2 и 3 секция слова */
 .choice {
   position: relative;
   margin-top: 8vw;
@@ -312,11 +316,200 @@ body {
   color: #1e4833;
   animation: wordsmove6 2s infinite ease;
 }
-/* стили треугольничков на ? экране */
-/* .polygon {
+
+/* 5 экран 8(1) секция общие настройки */
+.section8 {
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* 5 экран полосочки */
+.polosochki1 {
   position: relative;
-  height: 50vw;
-  width: 27vw;
+  background-image: url(../images/polosochki1.svg);
+  width: 33vw;
+  height: 33vw;
+}
+.polosochki2 {
+  position: relative;
+  background-image: url(../images/polosochki2.svg);
+  width: 33vw;
+  height: 33vw;
+}
+.polosochki3 {
+  position: relative;
+  background-image: url(../images/polosochki3.svg);
+  width: 33vw;
+  height: 33vw;
+}
+/* 6 экран общие настройки(?) */
+.section9 {
+  display: flex;
+  align-items: flex-start;
+}
+/* 6 экран стили треугольничков  */
+.polygon {
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 3vw;
+  height: 56.2vw;
+  width: 38.7vw;
   top: 0;
   animation: polygonanima 1s steps(1) infinite;
-} */
+  margin-bottom: 5vw;
+}
+/* 6 экран бегущие строки */
+.runquestionsf {
+  display: flex;
+  flex-direction: row;
+  background-color: #740606;
+  position: relative;
+  margin-left: 3vw;
+  width: 73vw;
+  height: 16vw;
+  overflow: hidden;
+}
+.runquestionsf > p {
+  margin-top: 3vw;
+  margin-left: 8vw;
+  font-size: 3vw;
+  color: white;
+  animation: runningquestions1 1.5s infinite linear;
+}
+.runquestionst {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #740606;
+  position: relative;
+  margin-left: 3vw;
+  width: 73vw;
+  height: 16vw;
+  overflow: hidden;
+}
+.runquestionst > p {
+  margin-top: 2vw;
+  margin-left: 10vw;
+  font-size: 3vw;
+  color: white;
+  animation: runningquestions2 1.5s infinite linear;
+}
+/* не получилось сделать остановку по ховеру */
+/* 6 экран общие настройки зеленый текст+непонятные штук */
+.section11 {
+  display: flex;
+  flex-direction: row;
+}
+/* 6 экран текст на зеленом фоне */
+.greentable {
+  display: flex;
+  align-items: center;
+  margin-left: 3vw;
+  background-color: #1e4833;
+  height: 30vw;
+  width: 20vw;
+}
+.greentable > p {
+  margin-left: 1vw;
+  font-size: 3vw;
+  color: white;
+  animation: greentabletext 0.5s infinite linear;
+}
+
+/* 6 экран непонятные крутящиеся штучки ч1 */
+.section12 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.weirdthings1 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 15vw;
+  width: 53vw;
+}
+.weirdthings2 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 14.5vw;
+  width: 53vw;
+}
+.weirdo1 {
+  margin-top: 0.5vw;
+  background-image: url(../images/weirdo1.svg);
+  margin-left: -1vw;
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+.weirdo2 {
+  margin-top: 0.5vw;
+  margin-left: -0vw;
+  background-image: url(../images/weirdo2.svg);
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+.weirdo3 {
+  margin-top: 0.5vw;
+  margin-left: -3vw;
+  background-image: url(../images/weirdo3.svg);
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+.weirdo4 {
+  background-image: url(../images/weirdo4.svg);
+  margin-left: -1vw;
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+.weirdo5 {
+  margin-left: -0vw;
+  background-image: url(../images/weirdo5.svg);
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+.weirdo6 {
+  margin-left: -3vw;
+  background-image: url(../images/weirdo6.svg);
+  width: 18vw;
+  height: 14.5vw;
+  animation: rot 2s infinite linear;
+}
+
+.section13 {
+  display: flex;
+  flex-direction: row;
+}
+.down1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 66vw;
+  height: 10vw;
+  background-color: #740606;
+}
+.down1 > p {
+  margin-left: 7vw;
+  font-size: 3vw;
+  color: white;
+}
+.down1 > p:hover {
+  color: black;
+}
+
+.down2 {
+  margin-top: -0.5vw;
+  margin-left: 3vw;
+  background-image: url(../images/logo.png);
+  height: 10vw;
+  width: 25vw;
+}
