@@ -25,7 +25,7 @@ body {
   color: #1e4833;
   animation: boldchange 1s infinite linear;
 }
-/*не получается по ховеру остановку бегущих строк */
+/*не получается по ховеру остановку бегущих строк + доделать идеальную стыковку строк*/
 .theatretext1 {
   transform: rotate(-26deg);
   margin-left: -5vw;
@@ -140,6 +140,7 @@ body {
   margin-left: 4vw;
 }
 /* 2 экран падение слов */
+/* поинтереснее падение визуально */
 .wordsback {
   background-color: white;
   width: 25vw;
@@ -362,6 +363,7 @@ body {
   margin-bottom: 5vw;
 }
 /* 6 экран бегущие строки */
+/* не получилось сделать остановку по ховеру */
 .runquestionsf {
   display: flex;
   flex-direction: row;
@@ -396,13 +398,14 @@ body {
   color: white;
   animation: runningquestions2 1.5s infinite linear;
 }
-/* не получилось сделать остановку по ховеру */
+
 /* 6 экран общие настройки зеленый текст+непонятные штук */
 .section11 {
   display: flex;
   flex-direction: row;
 }
 /* 6 экран текст на зеленом фоне */
+/* выделить курсивом и жирным */
 .greentable {
   display: flex;
   align-items: center;
@@ -483,7 +486,7 @@ body {
   height: 14.5vw;
   animation: rot 2s infinite linear;
 }
-
+/* подвал */
 .section13 {
   display: flex;
   flex-direction: row;
@@ -505,7 +508,6 @@ body {
 .down1 > p:hover {
   color: black;
 }
-
 .down2 {
   margin-top: -0.5vw;
   margin-left: 3vw;
@@ -513,3 +515,5 @@ body {
   height: 10vw;
   width: 25vw;
 }
+
+/* изменить лого на офиц */
