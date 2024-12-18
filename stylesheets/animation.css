@@ -477,3 +477,6 @@
     transform: rotate(360deg);
   }
 }
+.section1 > div:hover > p {
+  animation-play-state: paused;
+}

@@ -15,7 +15,35 @@ body {
   background-color: black;
   font-family: 'Helvetica';
 }
-
+/* все экраны резиновые картинки */
+.section2 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section4 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section8 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section9 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section12 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section13 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* 1 экран стили всех текстовых элементов*/
 .theatretext4 {
   position: absolute;
@@ -71,6 +99,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
 /* 1 экран стили колонн театра */
 .whcolumn1 {
   background-image: url(../images/redcolumn-1.svg);
