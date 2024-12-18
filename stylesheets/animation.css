@@ -218,6 +218,47 @@
     transform: rotate(60deg);
   }
 }
+@keyframes choosefall1 {
+  0% {
+    top: 0;
+    transform: rotate(20deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(50deg);
+  }
+}
+@keyframes yourfall1 {
+  0% {
+    top: 0;
+    transform: rotate(10deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(-50deg);
+  }
+}
+
+@keyframes endfall1 {
+  0% {
+    top: 0;
+    transform: rotate(-20deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(-50deg);
+  }
+}
+@keyframes yourselffall1 {
+  0% {
+    top: 0;
+    transform: rotate(30deg);
+  }
+  100% {
+    top: 100vw;
+    transform: rotate(70deg);
+  }
+}
 
 /* 3 экран анимация буковок */
 @keyframes cursivechange1 {
@@ -435,10 +476,10 @@
     transform: translateY(0vw);
   }
   33% {
-    transform: translateY(-6vw);
+    transform: translateY(0vw);
   }
   66% {
-    transform: translateY(6vw);
+    transform: translateY(9vw);
   }
   100% {
     transform: translateY(0vw);
@@ -449,28 +490,25 @@
   0% {
     transform: rotate(0deg);
   }
-  11% {
-    transform: rotate(0deg);
-  }
-  22% {
+  12.5% {
     transform: rotate(90deg);
   }
-  33% {
+  25% {
     transform: rotate(90deg);
   }
-  44% {
+  37.5% {
     transform: rotate(180deg);
   }
-  55% {
+  50% {
     transform: rotate(180deg);
   }
-  66% {
+  62.5% {
     transform: rotate(270deg);
   }
-  77% {
+  75% {
     transform: rotate(270deg);
   }
-  88% {
+  87.5% {
     transform: rotate(360deg);
   }
   100% {
@@ -478,5 +516,8 @@
   }
 }
 .section1 > div:hover > p {
+  animation-play-state: paused;
+}
+.section11 > div:hover > p {
   animation-play-state: paused;
 }

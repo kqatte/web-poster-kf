@@ -53,13 +53,11 @@ body {
   color: #1e4833;
   animation: boldchange 1s infinite linear;
 }
-/*не получается по ховеру остановку бегущих строк + доделать идеальную стыковку строк*/
 .theatretext1 {
   transform: rotate(-26deg);
   margin-left: -5vw;
   font-size: 3vw;
 }
-
 .theatretext1 > p {
   color: white;
   display: inline-block;
@@ -67,7 +65,6 @@ body {
   position: relative;
   animation: howtochangepast 2s linear infinite;
 }
-
 .theatretext2 {
   transform: rotate(26deg);
   margin-left: 15vw;
@@ -179,38 +176,156 @@ body {
   font-size: 3vw;
   position: absolute;
   margin-left: 2vw;
-  animation: choosefall 2s linear infinite;
+  animation: choosefall 3s linear infinite;
   color: #1e4833;
   font-weight: bold;
 }
 .your {
   font-size: 3vw;
   position: absolute;
-  margin-left: 5vw;
+  margin-left: 10vw;
   margin-top: -3vw;
-  animation: yourfall 2s linear infinite;
-  animation-delay: 0.5s;
+  animation: yourfall 3s linear infinite;
+  animation-delay: 0.2s;
   color: black;
   font-weight: bold;
 }
 .end {
   font-size: 3vw;
   position: absolute;
-  margin-left: 8vw;
+  margin-left: 4vw;
   margin-top: -3vw;
-  animation: endfall 2s linear infinite;
+  animation: endfall 3s linear infinite;
+  animation-delay: 0.4s;
+  color: #740606;
+  font-weight: bold;
+}
+.yourself {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 12vw;
+  margin-top: -3vw;
+  animation: yourselffall 3s linear infinite;
+  animation-delay: 0.6s;
+  font-weight: bold;
+}
+.choose1 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 6vw;
+  margin-top: -3vw;
+  animation: choosefall1 3s linear infinite;
+  color: black;
+  font-weight: bold;
+  animation-delay: 0.8s;
+}
+.your1 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: -3vw;
+  animation: yourfall1 3s linear infinite;
   animation-delay: 1s;
   color: #740606;
   font-weight: bold;
 }
-
-.yourself {
+.end1 {
   font-size: 3vw;
   position: absolute;
-  margin-left: 11vw;
+  margin-left: 1vw;
   margin-top: -3vw;
-  animation: yourselffall 2s linear infinite;
-  animation-delay: 1.5s;
+  animation: endfall1 3s linear infinite;
+  animation-delay: 1.2s;
+  color: #1e4833;
+  font-weight: bold;
+}
+.yourself1 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 13vw;
+  margin-top: -3vw;
+  animation: yourselffall1 3s linear infinite;
+  animation-delay: 1.4s;
+  font-weight: bold;
+}
+.choose2 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: -3vw;
+  animation: choosefall1 3s linear infinite;
+  color: #740606;
+  font-weight: bold;
+  animation-delay: 1.6s;
+}
+.your2 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: -3vw;
+  animation: yourfall1 3s linear infinite;
+  animation-delay: 1.8s;
+  color: #1e4833;
+  font-weight: bold;
+}
+.end2 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: -3vw;
+  animation: endfall1 3s linear infinite;
+  animation-delay: 2s;
+  color: black;
+  font-weight: bold;
+}
+
+.yourself2 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: -3vw;
+  animation: yourselffall1 3s linear infinite;
+  animation-delay: 2.2s;
+  font-weight: bold;
+}
+.choose3 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: -3vw;
+  animation: choosefall1 3s linear infinite;
+  color: #740606;
+  font-weight: bold;
+  animation-delay: 2.35s;
+}
+.your3 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 12vw;
+  margin-top: -3vw;
+  animation: yourfall1 3s linear infinite;
+  animation-delay: 2.55s;
+  color: #1e4833;
+  font-weight: bold;
+}
+.end3 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: -3vw;
+  animation: endfall1 3s linear infinite;
+  animation-delay: 2.7s;
+  color: black;
+  font-weight: bold;
+}
+
+.yourself3 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 7vw;
+  margin-top: -3vw;
+  animation: yourselffall1 3s linear infinite;
+  animation-delay: 2.85;
   font-weight: bold;
 }
 
@@ -224,6 +339,30 @@ body {
   animation-play-state: paused;
 }
 .yourself:hover {
+  animation-play-state: paused;
+}
+.choose1:hover {
+  animation-play-state: paused;
+}
+.your1:hover {
+  animation-play-state: paused;
+}
+.end1:hover {
+  animation-play-state: paused;
+}
+.yourself1:hover {
+  animation-play-state: paused;
+}
+.choose2:hover {
+  animation-play-state: paused;
+}
+.your2:hover {
+  animation-play-state: paused;
+}
+.end2:hover {
+  animation-play-state: paused;
+}
+.yourself2:hover {
   animation-play-state: paused;
 }
 
@@ -437,17 +576,20 @@ body {
 /* выделить курсивом и жирным */
 .greentable {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin-left: 3vw;
   background-color: #1e4833;
-  height: 30vw;
+  height: 29.5vw;
   width: 20vw;
 }
 .greentable > p {
-  margin-left: 1vw;
   font-size: 3vw;
   color: white;
   animation: greentabletext 0.5s infinite linear;
+}
+.pgreentable {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* 6 экран непонятные крутящиеся штучки ч1 */
@@ -475,7 +617,7 @@ body {
   background-image: url(../images/weirdo1.svg);
   margin-left: -1vw;
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo2 {
@@ -483,7 +625,7 @@ body {
   margin-left: -0vw;
   background-image: url(../images/weirdo2.svg);
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo3 {
@@ -491,28 +633,28 @@ body {
   margin-left: -3vw;
   background-image: url(../images/weirdo3.svg);
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo4 {
   background-image: url(../images/weirdo4.svg);
   margin-left: -1vw;
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo5 {
   margin-left: -0vw;
   background-image: url(../images/weirdo5.svg);
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo6 {
   margin-left: -3vw;
   background-image: url(../images/weirdo6.svg);
   width: 18vw;
-  height: 14.5vw;
+  height: 15vw;
   animation: rot 2s infinite linear;
 }
 /* подвал */
@@ -530,7 +672,7 @@ body {
   background-color: #740606;
 }
 .down1 > p {
-  margin-left: 7vw;
+  margin-left: 10vw;
   font-size: 3vw;
   color: white;
 }
@@ -544,5 +686,3 @@ body {
   height: 10vw;
   width: 25vw;
 }
-
-/* изменить лого на офиц */
