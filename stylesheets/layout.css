@@ -166,7 +166,7 @@ body {
   margin-left: 4vw;
 }
 /* 2 экран падение слов */
-/* поинтереснее падение визуально */
+
 .wordsback {
   background-color: white;
   width: 25vw;
@@ -363,6 +363,18 @@ body {
   animation-play-state: paused;
 }
 .yourself2:hover {
+  animation-play-state: paused;
+}
+.choose3:hover {
+  animation-play-state: paused;
+}
+.your3:hover {
+  animation-play-state: paused;
+}
+.end3:hover {
+  animation-play-state: paused;
+}
+.yourself3:hover {
   animation-play-state: paused;
 }
 
