@@ -1,2 +1,108 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 414px) {
+  .whcolumn3 {
+    display: none;
+  }
+  .whcolumn4 {
+    display: none;
+  }
+  /* .whcolumn1,
+  .whcolumn2,
+  .whcolumn5,
+  .whcolumn6 {
+    width: 13vw;
+  } */
+
+  /* как сделать так чтоб по ховеру ширина картинки тоже адаптировалась?? */
+
+  .section3 {
+    flex-direction: column;
+  }
+  .backstage {
+    width: 100vw;
+    height: 94vw;
+  }
+  .container3 {
+    width: 100vw;
+  }
+  .starsback {
+    width: 50vw;
+    height: 70vw;
+  }
+  .star1,
+  .star2 {
+    height: 30vw;
+    width: 30vw;
+    margin-left: 10vw;
+  }
+  .star2 {
+    margin-top: 37vw;
+  }
+  .wordsback {
+    width: 50vw;
+    height: 70vw;
+  }
+  .choose {
+    margin-left: 4vw;
+    margin-top: 50vw;
+  }
+  .your {
+    margin-left: 20vw;
+    margin-top: -3vw;
+  }
+  .end {
+    margin-left: 8vw;
+    margin-top: -3vw;
+  }
+  .yourself {
+    margin-left: 24vw;
+    margin-top: -3vw;
+  }
+  .choose1 {
+    margin-left: 12vw;
+    margin-top: -3vw;
+  }
+  .your1 {
+    margin-left: 20vw;
+    margin-top: -3vw;
+  }
+  .end1 {
+    margin-left: 3vw;
+    margin-top: -3vw;
+  }
+  .yourself1 {
+    margin-left: 26vw;
+    margin-top: -3vw;
+  }
+  .choose2 {
+    margin-left: 6vw;
+    margin-top: -3vw;
+  }
+  .your2 {
+    margin-left: 20vw;
+    margin-top: -3vw;
+  }
+  .end2 {
+    margin-left: 6vw;
+    margin-top: -3vw;
+  }
+  .yourself2 {
+    margin-left: 16vw;
+    margin-top: -3vw;
+  }
+  .choose3 {
+    margin-left: 8vw;
+    margin-top: -3vw;
+  }
+  .your3 {
+    margin-left: 24vw;
+    margin-top: -3vw;
+  }
+  .end3 {
+    margin-left: 4vw;
+    margin-top: -3vw;
+  }
+  .yourself3 {
+    margin-left: 14vw;
+    margin-top: -3vw;
+  }
 }
