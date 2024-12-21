@@ -1,4 +1,14 @@
 @media screen and (max-width: 414px) {
+  .theatretext1,
+  .theatretext2,
+  .theatretext3 {
+    font-size: 4vw;
+  }
+  .theatretext4 {
+    font-size: 6vw;
+    margin-top: 15vw;
+    margin-left: 38vw;
+  }
   .whcolumn3 {
     display: none;
   }
@@ -23,6 +33,7 @@
   }
   .container3 {
     width: 100vw;
+    overflow: hidden;
   }
   .starsback {
     width: 50vw;
@@ -41,68 +52,113 @@
     width: 50vw;
     height: 70vw;
   }
+
   .choose {
-    margin-left: 4vw;
-    margin-top: 50vw;
+    margin-left: 5vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .your {
-    margin-left: 20vw;
-    margin-top: -3vw;
+    margin-left: 27vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .end {
-    margin-left: 8vw;
-    margin-top: -3vw;
+    margin-left: 17vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .yourself {
-    margin-left: 24vw;
-    margin-top: -3vw;
+    margin-left: 30vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .choose1 {
-    margin-left: 12vw;
-    margin-top: -3vw;
+    margin-left: 3vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .your1 {
     margin-left: 20vw;
-    margin-top: -3vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .end1 {
-    margin-left: 3vw;
-    margin-top: -3vw;
+    margin-left: 7vw;
+    font-size: 4vw;
+    margin-top: -4vw;
   }
   .yourself1 {
-    margin-left: 26vw;
-    margin-top: -3vw;
+    margin-left: 38vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .choose2 {
-    margin-left: 6vw;
-    margin-top: -3vw;
+    margin-left: 12vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .your2 {
-    margin-left: 20vw;
-    margin-top: -3vw;
+    margin-left: 30vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .end2 {
-    margin-left: 6vw;
-    margin-top: -3vw;
+    margin-left: 11vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .yourself2 {
-    margin-left: 16vw;
-    margin-top: -3vw;
+    margin-left: 27vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .choose3 {
-    margin-left: 8vw;
-    margin-top: -3vw;
+    margin-left: 2vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .your3 {
-    margin-left: 24vw;
-    margin-top: -3vw;
+    margin-left: 38vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .end3 {
-    margin-left: 4vw;
-    margin-top: -3vw;
+    margin-left: 11vw;
+    margin-top: -4vw;
+    font-size: 4vw;
   }
   .yourself3 {
-    margin-left: 14vw;
-    margin-top: -3vw;
+    margin-left: 34vw;
+    margin-top: -4vw;
+    font-size: 4vw;
+  }
+  .ahide > p,
+  .ehide > p,
+  .shide > p,
+  .lhide > p,
+  .ihide > p {
+    font-size: 24vw;
+  }
+  .choice {
+    font-size: 4vw;
+  }
+  .changes {
+    font-size: 4vw;
+  }
+  .alternative {
+    font-size: 4vw;
+  }
+  .stable {
+    font-size: 4vw;
+  }
+  .past {
+    font-size: 4vw;
+  }
+  .future {
+    font-size: 4vw;
+  }
+  .section9 {
+    flex-direction: row;
   }
 }

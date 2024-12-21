@@ -136,6 +136,7 @@ body {
   overflow: hidden;
 }
 .container3 {
+  position: relative;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -479,7 +480,7 @@ body {
   margin-top: 8vw;
   font-size: 3vw;
   color: #740606;
-  animation: wordsmove3 0.5s infinite ease;
+  animation: wordsmove5 0.5s infinite ease;
 }
 .changes {
   position: relative;
@@ -487,14 +488,14 @@ body {
   margin-left: 40vw;
   font-size: 3vw;
   color: #740606;
-  animation: wordsmove4 0.5s infinite ease;
+  animation: wordsmove6 0.5s infinite ease;
 }
 .alternative {
   position: relative;
   margin-top: 8vw;
   font-size: 3vw;
   color: #1e4833;
-  animation: wordsmove5 2s infinite ease;
+  animation: wordsmove3 2s infinite ease;
 }
 .stable {
   position: relative;
@@ -502,7 +503,7 @@ body {
   margin-left: 40vw;
   font-size: 3vw;
   color: #1e4833;
-  animation: wordsmove6 2s infinite ease;
+  animation: wordsmove4 2s infinite ease;
 }
 
 /* 5 экран 8(1) секция общие настройки */

@@ -368,24 +368,24 @@
 }
 @keyframes wordsmove3 {
   0% {
-    left: -8vw;
+    left: -4vw;
   }
   50% {
     left: 10vw;
   }
   100% {
-    left: -8vw;
+    left: -4vw;
   }
 }
 @keyframes wordsmove4 {
   0% {
-    right: -8vw;
+    right: -4vw;
   }
   50% {
     right: 10vw;
   }
   100% {
-    right: -8vw;
+    right: -4vw;
   }
 }
 @keyframes wordsmove5 {
