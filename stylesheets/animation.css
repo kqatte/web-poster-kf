@@ -453,7 +453,29 @@
     background-image: url(../images/polygon4.png);
   }
 }
-
+@keyframes polygonanima2 {
+  0% {
+    background-image: url(../images/polygon1.png);
+  }
+  17% {
+    background-image: url(../images/polygon1.5.png);
+  }
+  34% {
+    background-image: url(../images/polygon2.png);
+  }
+  51% {
+    background-image: url(../images/polygon2.5.png);
+  }
+  68% {
+    background-image: url(../images/polygon3.png);
+  }
+  85% {
+    background-image: url(../images/polygon3.5.png);
+  }
+  100% {
+    background-image: url(../images/polygon4.png);
+  }
+}
 @keyframes runningquestions1 {
   0% {
     transform: translateX(0vw);
@@ -462,12 +484,28 @@
     transform: translateX(-31.75vw);
   }
 }
+@keyframes runningquestions12 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-81vw);
+  }
+}
 @keyframes runningquestions2 {
   0% {
     transform: translateX(0vw);
   }
   100% {
     transform: translateX(31vw);
+  }
+}
+@keyframes runningquestions22 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(71vw);
   }
 }
 
@@ -480,6 +518,20 @@
   }
   66% {
     transform: translateY(9vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+@keyframes greentabletext2 {
+  0% {
+    transform: translateY(0vw);
+  }
+  33% {
+    transform: translateY(-3vw);
+  }
+  66% {
+    transform: translateY(27vw);
   }
   100% {
     transform: translateY(0vw);

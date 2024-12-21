@@ -540,7 +540,7 @@ body {
   align-items: flex-start;
 }
 /* 6 экран стили треугольничков  */
-.polygon {
+.container9 {
   position: relative;
   margin-top: 5vw;
   margin-left: 3vw;
@@ -603,11 +603,10 @@ body {
   width: 20vw;
 }
 .greentable > p {
+  margin-top: 5vw;
   font-size: 3vw;
   color: white;
   animation: greentabletext 0.5s infinite linear;
-}
-.pgreentable {
   font-weight: bold;
   font-style: italic;
 }
@@ -676,6 +675,13 @@ body {
   width: 18vw;
   height: 15vw;
   animation: rot 2s infinite linear;
+}
+
+.psevdosection1,
+.psevdosection2,
+.psevdosection3,
+.psevdosection4 {
+  display: none;
 }
 /* подвал */
 .section13 {
