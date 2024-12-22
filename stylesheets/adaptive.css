@@ -15,12 +15,23 @@
   .whcolumn4 {
     display: none;
   }
-  /* .whcolumn1,
+  .whcolumn1,
   .whcolumn2,
   .whcolumn5,
   .whcolumn6 {
     width: 13vw;
-  } */
+  }
+  .whcolumn1:hover {
+    background-image: url(../images/whcolumn1.svg);
+    height: 30vw;
+    width: 13vw;
+  }
+
+  .whcolumn2:hover {
+    background-image: url(../images/greencolumn1.svg);
+    height: 30vw;
+    width: 13vw;
+  }
 
   /* как сделать так чтоб по ховеру ширина картинки тоже адаптировалась?? */
 
