@@ -44,6 +44,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.down2 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* 1 экран стили всех текстовых элементов*/
 .theatretext4 {
   position: absolute;
@@ -599,7 +603,7 @@ body {
   flex-direction: column;
   margin-left: 3vw;
   background-color: #1e4833;
-  height: 29.5vw;
+  height: 30vw;
   width: 20vw;
 }
 .greentable > p {
@@ -628,20 +632,20 @@ body {
   display: flex;
   flex-direction: row;
   background-color: white;
-  height: 14.5vw;
+  height: 15vw;
   width: 53vw;
 }
 .weirdo1 {
   margin-top: 0.5vw;
   background-image: url(../images/weirdo1.svg);
-  margin-left: -1vw;
+  margin-left: -1.5vw;
   width: 18vw;
   height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo2 {
   margin-top: 0.5vw;
-  margin-left: -0vw;
+  margin-left: -1.5vw;
   background-image: url(../images/weirdo2.svg);
   width: 18vw;
   height: 15vw;
@@ -649,7 +653,7 @@ body {
 }
 .weirdo3 {
   margin-top: 0.5vw;
-  margin-left: -3vw;
+  margin-left: -1.5vw;
   background-image: url(../images/weirdo3.svg);
   width: 18vw;
   height: 15vw;
@@ -657,20 +661,20 @@ body {
 }
 .weirdo4 {
   background-image: url(../images/weirdo4.svg);
-  margin-left: -1vw;
+  margin-left: -1.5vw;
   width: 18vw;
   height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo5 {
-  margin-left: -0vw;
+  margin-left: -1.5vw;
   background-image: url(../images/weirdo5.svg);
   width: 18vw;
   height: 15vw;
   animation: rot 2s infinite linear;
 }
 .weirdo6 {
-  margin-left: -3vw;
+  margin-left: -1.5vw;
   background-image: url(../images/weirdo6.svg);
   width: 18vw;
   height: 15vw;
@@ -693,8 +697,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 66vw;
-  height: 10vw;
+  width: 100vw;
+  height: 15vw;
   background-color: #740606;
 }
 .down1 > p {
@@ -705,10 +709,9 @@ body {
 .down1 > p:hover {
   color: black;
 }
-.down2 {
-  margin-top: -0.5vw;
-  margin-left: 3vw;
-  background-image: url(../images/logo.png);
-  height: 10vw;
-  width: 25vw;
+.logo {
+  margin-left: 8vw;
+  background-image: url(../images/logo2.png);
+  width: 35vw;
+  height: 14vw;
 }

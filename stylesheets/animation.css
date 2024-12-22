@@ -152,6 +152,9 @@
     background-image: url(../images/backstage25.png);
   }
 }
+.backstage:hover {
+  animation-play-state: paused;
+}
 /* 2 экран анимация звезд */
 @keyframes star1rotate {
   from {
@@ -390,24 +393,24 @@
 }
 @keyframes wordsmove5 {
   0% {
-    left: -20vw;
+    left: -10vw;
   }
   50% {
-    left: 20vw;
+    left: 15vw;
   }
   100% {
-    left: -20vw;
+    left: -10vw;
   }
 }
 @keyframes wordsmove6 {
   0% {
-    right: -20vw;
+    right: -10vw;
   }
   50% {
-    right: 20vw;
+    right: 15vw;
   }
   100% {
-    right: -20vw;
+    right: -10vw;
   }
 }
 
@@ -434,48 +437,133 @@
   0% {
     background-image: url(../images/polygon1.png);
   }
-  17% {
-    background-image: url(../images/polygon1.5.png);
-  }
-  34% {
+  5% {
     background-image: url(../images/polygon2.png);
   }
-  51% {
-    background-image: url(../images/polygon2.5.png);
-  }
-  68% {
+  10% {
     background-image: url(../images/polygon3.png);
   }
+  15% {
+    background-image: url(../images/polygon4.png);
+  }
+  20% {
+    background-image: url(../images/polygon5.png);
+  }
+  25% {
+    background-image: url(../images/polygon6.png);
+  }
+  30% {
+    background-image: url(../images/polygon7.png);
+  }
+  35% {
+    background-image: url(../images/polygon8.png);
+  }
+  40% {
+    background-image: url(../images/polygon9.png);
+  }
+  45% {
+    background-image: url(../images/polygon10.png);
+  }
+  50% {
+    background-image: url(../images/polygon11.png);
+  }
+  55% {
+    background-image: url(../images/polygon12.png);
+  }
+  60% {
+    background-image: url(../images/polygon13.png);
+  }
+  65% {
+    background-image: url(../images/polygon14.png);
+  }
+  70% {
+    background-image: url(../images/polygon15.png);
+  }
+  75% {
+    background-image: url(../images/polygon16.png);
+  }
+  80% {
+    background-image: url(../images/polygon17.png);
+  }
   85% {
-    background-image: url(../images/polygon3.5.png);
+    background-image: url(../images/polygon18.png);
+  }
+  90% {
+    background-image: url(../images/polygon19.png);
+  }
+  95% {
+    background-image: url(../images/polygon20.png);
   }
   100% {
-    background-image: url(../images/polygon4.png);
+    background-image: url(../images/polygon1.png);
   }
 }
 @keyframes polygonanima2 {
   0% {
     background-image: url(../images/polygon1.png);
   }
-  17% {
-    background-image: url(../images/polygon1.5.png);
-  }
-  34% {
+  5% {
     background-image: url(../images/polygon2.png);
   }
-  51% {
-    background-image: url(../images/polygon2.5.png);
-  }
-  68% {
+  10% {
     background-image: url(../images/polygon3.png);
   }
-  85% {
-    background-image: url(../images/polygon3.5.png);
-  }
-  100% {
+  15% {
     background-image: url(../images/polygon4.png);
   }
+  20% {
+    background-image: url(../images/polygon5.png);
+  }
+  25% {
+    background-image: url(../images/polygon6.png);
+  }
+  30% {
+    background-image: url(../images/polygon7.png);
+  }
+  35% {
+    background-image: url(../images/polygon8.png);
+  }
+  40% {
+    background-image: url(../images/polygon9.png);
+  }
+  45% {
+    background-image: url(../images/polygon10.png);
+  }
+  50% {
+    background-image: url(../images/polygon11.png);
+  }
+  55% {
+    background-image: url(../images/polygon12.png);
+  }
+  60% {
+    background-image: url(../images/polygon13.png);
+  }
+  65% {
+    background-image: url(../images/polygon14.png);
+  }
+  70% {
+    background-image: url(../images/polygon15.png);
+  }
+  75% {
+    background-image: url(../images/polygon16.png);
+  }
+  80% {
+    background-image: url(../images/polygon17.png);
+  }
+  85% {
+    background-image: url(../images/polygon18.png);
+  }
+  90% {
+    background-image: url(../images/polygon19.png);
+  }
+  95% {
+    background-image: url(../images/polygon20.png);
+  }
+  100% {
+    background-image: url(../images/polygon1.png);
+  }
 }
+
 @keyframes runningquestions1 {
   0% {
     transform: translateX(0vw);
