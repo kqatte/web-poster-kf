@@ -3,18 +3,19 @@ html {
   background-color: black;
 }
 body {
+  background-color: black;
+  font-family: 'Helvetica';
   margin: 0 auto;
   position: relative;
+  cursor: url(../images/cursor1.png), auto;
 }
+
 section {
   position: relative;
   width: 100vw;
   overflow: hidden;
 }
-body {
-  background-color: black;
-  font-family: 'Helvetica';
-}
+
 /* все экраны резиновые картинки */
 .section2 div {
   background-repeat: no-repeat;
